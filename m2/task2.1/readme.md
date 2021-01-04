@@ -19,9 +19,9 @@ KVM is a free hypervisor. KVM does not have technical support.
         vb.cpus = 2
       end
       config.vm.define :server do |srv|
-        srv.vm.hostname = "vagrant-server-vasylechko"
+        srv.vm.hostname = "vagrant-client-gnelenkok"
       end
       config.vm.define :client do |client|
-        client.vm.hostname = "vagrant-client-vasylechko"
+        client.vm.hostname = "vagrant-client-gnelenkok"
       end
     end
